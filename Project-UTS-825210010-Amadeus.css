@@ -1,0 +1,1082 @@
+* {padding: 0; margin: 0;}
+
+body {
+	overflow-x : hidden;
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    width: 100%; 
+	margin: auto;
+}
+
+/* logo + traveling */
+header {
+    position: fixed;
+	top: 0px;
+	transition: top .3s ease;
+	background: whitesmoke;
+	width: 100%;
+    z-index: 1100;
+}
+body header .kiri img {
+	height: 80px;
+	width: auto;
+	margin: 15px 0 0 20px;
+}
+body header .kanan a {
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	float: left;
+	margin-top: -63px;
+	margin-left: 100px;
+} 
+
+/* Home - contact */
+nav ul li {
+	float: left; 
+	list-style: none; 
+}
+nav ul li a {
+	margin-right: 10px; 
+	text-decoration: none; 
+	color: white;
+	padding: 3px 5px;
+	color: black;
+}
+nav ul li ul {
+	display: none;
+}
+nav ul li:hover > ul {
+	display: block;
+	padding-top: 25px;
+	background: whitesmoke;
+}
+nav {
+	position: fixed;
+	top: 45px;
+	left: 280px;
+	background: transparent;
+	width: 100%;
+	z-index: 1100;
+}
+nav ul li ul {
+	position: absolute;
+}
+nav ul li ul li {
+	float: none;
+	position: relative;
+}
+nav ul li a:hover {
+	color: rgb(0, 194, 194);
+	transition: 0.5s;
+}
+nav ul ul ul {
+	left: 100%; 
+	top: 0; 
+	width: 200px;
+}
+
+/* no telp + logo telp */
+nav .telpon h4 {
+	font-size: 13px;
+	margin-top: -22px;
+    margin-left: 475px;
+}
+nav .telpon img {
+	width: 20px;
+	height: auto;
+    margin-left: 60px;
+}
+
+/* search button */
+nav .mencari {
+	float: right;
+	position: absolute;
+	left: 795px;
+	top: -13px;
+}
+nav .mencari img {
+	width: 40px;
+	height: auto;
+	position: absolute;
+}
+
+/* social media */
+nav .insta img {
+	width: 25px;
+	height: auto;
+	position: absolute;
+	left: 620px;
+	top: -3px;
+}
+nav .inlinked img {
+	width: 20px;
+	height: auto;
+	position: absolute;
+	left: 660px;
+	top: -1px;
+}
+nav .facebook img {
+	width: 25px;
+	height: auto;
+	position: absolute;
+	left: 695px;
+	top: -4px;
+}
+nav .googleplus img {
+	width: 28px;
+	height: auto;
+	position: absolute;
+	left: 735px;
+	top: -5px;
+}
+
+/* Indonesia */
+.indonesia img {
+	width: 100%;
+	height: 750px;
+}
+.indonesia h1 {
+	font-size: 65px;
+	font-family: MV Boli;
+	font-style: italic;
+	color: white;
+	width: 435px;
+	height: 100px;
+	border-radius: 50%;
+	text-align: center;
+	margin: -480px 0px 0px 355px;
+}
+.indonesia h4 {
+	font-size: 25px;
+	font-family: MV Boli;
+	font-style: italic;
+	color: white;
+	margin: -10px 0 70px 305px;
+	background-color: rgba(0, 0, 0, 0.312);
+	width: 525px;
+}
+.indonesia h5 a {
+	font-size: 20px;
+	font-family: Arial Black;
+	color: white;
+	background-color: #A30101;
+	padding: 25px;
+	border-radius: 10px;
+	text-decoration: none;
+    margin-left: 480px;
+}
+.indonesia h5:hover a {
+	background-color: #dc7018;
+	color: white;
+	transition:  0.7s;
+}
+
+/* Where you want to go?*/
+.indonesia h3 {
+	font-size: 20px;
+	font-family: Arial Black;
+	color: white;
+	margin: 248px 0px -85px 0px;
+	background-color: #670000;
+    padding-top: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 50px;
+}
+form input {
+	margin: 0 -50px 50px -200px; 
+	line-height: 30px; 
+	width: 150px;
+	background-color: transparent;
+	color: white;
+	border-color: gray;
+	border-radius: 3px;
+	padding: 5px 0 5px 15px;
+}
+form .dua {
+	margin-left: 400px;
+    margin-top: -95px;
+}
+form .tiga {
+	margin-left: 550px;
+    margin-top: -95px;
+}
+form .tiga select {
+	line-height: 30px; 
+	width: 150px;
+	background-color: transparent;
+	color: white;
+	border-color: gray;
+	border-radius: 3px;
+	padding: 15px 0 13px 15px; 
+}
+form .tiga select option {
+	background-color: #00002f;
+	color: white;
+}
+.searching h5 {
+    margin: -81px 0 0 925px;
+}
+.searching h5 a {
+	color: white;
+	font-size: 15px;
+	font-family: arial;
+	background-color: #dc7018;
+	color: rgb(14, 13, 76);
+	padding: 13px 35px 14px 35px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.searching h5:hover a {
+	background-color: rgb(205, 209, 4) ;
+	transition: 0.7s;
+}
+
+/* Popular destination */
+.popu-des h1 {
+	font-size: 35px;
+	font-family: consolas;
+    color: black;
+	margin: 100px 0 0 370px;
+}
+.popu-des p {
+	font-size: 15px;
+	margin: 10px 0px 80px 17px;
+	color: gray;
+	text-align: center;
+}
+.popu-des .foto {
+	display: inline-block;
+	width: 300px;
+	position: relative;
+	margin: 30px 30px 0px 30px;
+	top: -60px;
+    right: 17px;
+}
+.popu-des .foto img {
+	width: 345px;
+	height: 200px;
+	border-radius: 2%;
+}
+.popu-des .foto:hover img {
+	position: relative;
+	top: -10px;
+}
+.popu-des .foto .judul {
+	color: whitesmoke;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.562);
+	border-radius: 25%;
+	position: absolute;
+	top: 160px;
+	left: 25px;
+}
+.popu-des .foto:hover .judul {
+	position: absolute;
+	top: 150px;
+	left: 25px;
+	color: greenyellow;
+}
+.popu-des .foto .nomor {
+	color: black;
+	font-size: 20px;
+	border-radius: 20px;
+	position: absolute;
+	top: 155px;
+	left: 125px;
+	background-color: white;
+	padding: 5px 10px;
+}
+.popu-des .foto:hover .nomor {
+	position: absolute;
+	top: 145px;
+	left: 125px;
+	background-color: greenyellow;
+}
+
+/* subscribe */
+.subscribe h3 {
+	font-size: 25px;
+	color: white;
+	background-image: url('./images/parachute2.jpg');
+	background-size: cover;
+	margin: 0px 0px 0px 0px;
+	width: 1020px;
+	height: 115px;
+	padding-top: 55px;
+	padding-left: 105px;
+}
+.subscribe p {
+	margin: -135px 0px -60px 0px;
+	color: rgb(192, 191, 191);
+	top: 1585px;
+	padding-top: 55px;
+	padding-left: 105px;
+}
+.subscribe input {
+	margin: 0px 0px 0px 440px;
+	color: rgb(192, 191, 191);
+	padding: 10px 225px 10px 25px;
+	border-radius: 5%;
+}
+.subscribe h2 {
+	font-size: 20px;
+	margin: -39.8px 0px 0px 900px;
+	color: whitesmoke;
+	background-color: rgb(253, 50, 50);
+    width: 80px;
+	padding: 10px 25px 8px 25px;
+	border-radius: 10%;
+}
+.subscribe h2:hover {
+	background-color: rgb(247, 144, 41);
+	color: red;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+/* Popular places */
+.popu-places h1 {
+	font-size: 35px;
+	font-family: consolas;
+	color: black;
+	margin: 150px 0px 10px 410px;
+}
+.popu-places p {
+	font-size: 15px;
+	color: gray;
+	text-align: center;
+    margin: 0 0 20px 0;
+}
+.popu-places .foto {
+	display: inline-block;
+	width: 300px;
+	position: relative;
+	margin: 70px 30px 0px 30px;
+	top: -60px;
+    right: 17px;
+}
+.popu-places .foto img {
+	width: 345px;
+	height: 200px;
+	border-radius: 2%;
+}
+.popu-places .foto .judul {
+	color: black;
+	font-size: 20px;
+	position: absolute;
+	top: 215px;
+	left: 15px;
+}
+.popu-places .foto:hover .judul {
+	color: red;
+	transition: 0.2s;
+}
+.popu-places .foto .nomor {
+	color: black;
+	font-size: 20px;
+	border-radius: 40%;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background-color: rgb(2, 240, 2);
+	padding: 5px 10px;
+	transition: 0.2s;
+}
+.popu-places .foto:hover .nomor {
+	position: absolute;
+	left: 20px;
+	background-color: greenyellow;
+}
+.popu-places .asal {
+	position: absolute;
+	top: 240px;
+	left: 15px;
+	color: gray;
+}
+.popu-places h3 {
+	font: 30px;
+	color: white;
+	background-color: red;
+	width: 120px;
+	text-align: center;
+	position: relative;
+	top: 120px;
+	left: 500px;
+	border-radius: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.popu-places h3:hover {
+	background-color: rgb(247, 144, 41);
+	color: red;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.popu-places .bintang p {
+	float: left;
+	position: relative;
+	top: 55px;
+	left: 12px;
+}
+.popu-places .bintang .tulisan p {
+	position: relative;
+	top: 57px;
+	left: 20px;
+}
+.popu-places .waktu p {
+	float: left;
+	position: relative;
+	top: 55px;
+	left: 80px;
+}
+.popu-places .waktu .tulisan p {
+	position: relative;
+	top: 57px;
+	left: 85px;
+}
+
+/* Enjoy Video */
+.enjoy-vid img {
+    margin-top: 200px;
+	width: 1127px;
+	height: auto;
+	clip-path: inset(0 0 30% 0);
+}
+.enjoy-vid h1 {
+	font-size: 75px;
+	font-family: Consolas;
+	font-style: italic;
+	color: black;
+    position: relative;
+    top: -550px;
+    left: 350px;
+}
+.enjoy-vid a {
+    position: absolute;
+    top: 3050px;
+    margin-left: 515px;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	background: rgba(255, 0, 0, 0.49);
+	cursor: pointer;
+	box-shadow: 0 0 0 rgba(204, 169, 44, 0);
+	clip-path: polygon(71% 55%, 30% 32%, 30% 78%);
+}
+.enjoy-vid a:hover {
+    position: absolute;
+    top: 3040px;
+    margin-left: 505px;
+	width: 160px;
+	height: 160px;
+}
+
+/* offer */
+.offer .foto {
+	margin-top: -1000px;
+    margin-left: 80px;
+	display: inline-block;
+}
+.offer .foto img {
+	width: 175px;
+	height: auto;
+    margin-left: -25px;
+	cursor: default;
+}
+.offer .foto .judul {
+	margin-right: 30px;
+    margin-top: -20px;
+	font-size: 20px;
+}
+.offer .foto p {
+    margin-left: -50px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Quotes */
+.quotes {
+	margin-top: 100px;
+    margin-right: 300px;
+}
+.quotes img {
+	width: 90px;
+	height: auto;
+	border-radius: 50%;
+	position: relative;
+	left: 515px;
+}
+.quotes p {
+	text-align: center;
+	margin-top: 10px;
+    margin-left: 300px;
+}
+.quotes h3 {
+	font-size: 15px;
+	color: gray;
+	margin-top: 10px;
+	margin-left: 535px;
+}
+.quotes .circle {
+	width: 100px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 517px;
+}
+.quotes .dot {
+	border: 1px solid #670000;
+	background-color: #670000;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	border-radius: 100%;
+	float: left;
+	cursor: pointer;
+}
+.quotes .dot:hover {
+	background-color: rgb(226, 30, 30);
+}
+
+/*Recent Trips*/
+.recent h1 {
+	font: 25px;
+	font-family: consolas;
+	color: black;
+    margin-top: 100px;
+	margin-left: 445px;
+    margin-bottom: 40px;
+}
+.recent .foto:hover p{
+	color: red;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.recent .foto {
+	display: inline-block;
+	margin-left: 15px;
+}
+.recent .foto img {
+	width: 340px;
+	height: auto;
+	border-radius: 5%;
+	cursor: default;
+}
+.recent .foto .tanggal {
+	color: gray;
+	font-size: 15px;
+}
+.recent .foto p {
+	margin-top: 5px;
+}
+
+/* footer */
+/*bagian logo*/
+footer {
+	width: 1127px;
+	height: 300px;
+	background-color: #670000;
+	position: relative;
+	top: 50px;
+}
+footer .logoNama {
+	position: relative;
+	margin-left: 20px;
+	color: white;
+}
+footer .logoNama img {
+	width: 70px;
+	height: auto;
+	top: 100px;
+	margin-bottom: 12px;
+}
+footer .logoNama h4{
+	background: none;
+	color: white;
+	position: relative;
+	top: 50px;
+	font-size: 20px;
+	margin-left: 70px;
+}
+footer .logoNama a {
+	text-decoration: none;
+}
+footer .socmed img {
+	width: 30px;
+	height: auto;
+	position: absolute;
+}
+footer .socmed .facebook2 {
+	position: absolute;
+	top: 215px;
+	margin-left: 15px;
+}
+footer .socmed .twitter2 img {
+	width: 27px;
+	height: auto;
+	position: absolute;
+	top: 217px;
+	margin-left: 55px;
+}
+footer .socmed .insta2 img {
+	width: 27px;
+	height: auto;
+	position: absolute;
+	top: 217px;
+	margin-left: 93px;
+}
+footer .socmed .pinterest2 img {
+	width: 33px;
+	height: auto;
+	position: absolute;
+	top: 214px;
+	margin-left: 125px;
+}
+footer .socmed .youtube2 img {
+	width: 55px;
+	height: auto;
+	position: absolute;
+	top: 210px;
+	margin-left: 150px;
+}
+
+/*footer company*/
+footer .company {
+	position: absolute;
+	color: white;
+	top: 45px;
+	margin-left: 355px;
+}
+footer .company h4 {
+	font-size: 20px;
+}
+footer .company .comp {
+  	position: absolute;
+	top: 50px;
+}
+footer .company .comp ul {
+	padding-top: 15px;
+}
+footer .company .comp ul:hover {
+	color: yellow;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+/*footer popular destination*/
+footer .popu-des2 {
+	position: absolute;
+	color: white;
+	top: 45px;
+	margin-left: 520px;
+}
+footer .popu-des2 h4 {
+	font-size: 20px;
+}
+footer .popu-des2 .popularfooter .kiri {
+	position: absolute;
+	top: 50px;
+}
+footer .popu-des2 .popularfooter .kiri ul {
+	padding-top: 15px;
+}
+footer .popu-des2 .popularfooter .kiri ul:hover {
+	color: yellow;
+	cursor: pointer;
+	transition: 0.3s;
+}
+footer .popu-des2 .popularfooter .kanan {
+	position: absolute;
+	top: 50px;
+	margin-left: 100px;
+}
+footer .popu-des2 .popularfooter .kanan ul {
+	padding-top: 15px;
+}
+footer .popu-des2 .popularfooter .kanan ul:hover {
+	color: yellow;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+/*Footer Instagram*/
+footer .instagram {
+	position: absolute;
+	color: white;
+	top: 45px;
+	margin-left: 770px;
+}
+footer .instagram h4 {
+	font-size: 20px;
+}
+footer .instagram img {
+	width: 100px;
+	height: 60px;
+	border-radius: 5%;
+}
+footer .instagram .satu {
+	position: absolute;
+	top: 50px;
+	margin-left: 0px;
+}
+footer .instagram .satu .foto {
+	padding-top: 15px;
+}
+footer .instagram .dua {
+	position: absolute;
+	top: 50px;
+	margin-left: 110px;
+}
+footer .instagram .dua .foto {
+	padding-top: 15px;
+}
+footer .instagram .tiga {
+	position: absolute;
+	top: 50px;
+	margin-left: 220px;
+}
+footer .instagram .tiga .foto {
+	padding-top: 15px;
+}
+
+/*Footer Copyright*/
+footer h3 {
+	border-top: 1px solid white;
+	position: absolute;
+	font: 20px;
+	text-align: center;
+	top: 277px;
+	width: 1127px;
+	background-color: #670000;
+	color: rgb(207, 207, 207);
+}
+
+/* CONTACT */
+/*map*/
+iframe {
+	margin-top: 320px;
+}
+/*Get in Touch*/
+.contact-kiri h1 {
+	font-family: arial black;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-left: -175px;
+}
+.contact-kiri textarea {
+	margin-left: -175px;
+	width: 650px;
+	height: 200px;
+	margin-bottom: 10px;
+	resize: none;
+}
+.contact-kiri .contact-nama input {
+	position: relative;
+	left: -175px;
+	width: 310px;
+	padding: 10px 0 10px 5px;
+}
+.contact-kiri .contact-email input {
+	position: relative;
+	left: 160px;
+	top: -39px;
+	width: 310px;
+	padding: 10px 0 10px 5px;
+}
+.contact-kiri .contact-subject input {
+	position: relative;
+	left: -175px;
+	top: -25px;
+	width: 644px;
+	padding: 10px 0 10px 5px;
+}
+.contact-kiri h2 {
+	font-size: 15px;
+	margin-left: -175px;
+	background-color: aqua;
+	color: black;
+	width: 50px;
+	padding: 15px 10px 15px 20px;
+	border-radius: 5%;
+	margin-bottom: -500px;
+}
+.contact-kiri h2:hover {
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	transition: 0.2s;
+}
+/*contact adress etc*/
+.contact-kanan img {
+	position: relative;
+	top: 65px;
+	left: 300px;
+	width: 30px;
+	height: auto;
+	display: block;
+	margin-bottom: 60px;
+}
+.contact-kanan h5 {
+	position: relative;
+	top: -210px;
+	left: 340px;
+	height: auto;
+	display: block;
+}
+.contact-kanan p {
+	font-size: small;
+	position: relative;
+	top: -210px;
+	left: 340px;
+	height: auto;
+	display: block;
+	margin-bottom: 51px;
+}
+
+/*BLOG*/
+/*BLOG kiri*/
+.blog-kiri {
+	margin-top: 200px;
+	margin-bottom: -1000px;
+}
+.blog-kiri .blog-contents .blog-poto img {
+	width: 600px;
+	height: auto;
+	clip-path: inset(20% 0% 20% 0%);
+	position: relative;
+	top: 275px;
+	left: -200px;
+	margin-top: -225px;
+}
+.blog-kiri .blog-contents .blog-poto h1 {
+	background-color: red;
+	color: white;
+	width: 50px;
+	text-align: center;
+	padding: 25px;
+	border-radius: 10px;
+	position: relative;
+	top: 90px;
+	left: -175px;
+}
+.blog-kiri .blog-contents .blog-poto h1:hover {
+	background-color: rgb(255, 119, 0);
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.blog-kiri .blog-contents .blog-poto h2 {
+	position: relative;
+	top: 100px;
+	left: -175px;
+}
+.blog-kiri .blog-contents .blog-poto h2:hover {
+	color: red;
+	cursor: pointer;
+}
+.blog-kiri .blog-contents .blog-poto p {
+	position: relative;
+	top: 100px;
+	left: -175px;
+	color: gray;
+}
+.blog-contents .blog-orang img {
+	width: 20px;
+	height: auto;
+	position: relative;
+	top: 120px;
+	left: -175px;
+}
+.blog-contents .blog-orang p {
+	position: relative;
+	top: 95px;
+	left: -140px;
+}
+.blog-contents .blog-comments img {
+	width: 30px;
+	height: auto;
+	position: relative;
+	top: 68px;
+	left: -25px;
+}
+.blog-contents .blog-comments p {
+	position: relative;
+	top: 42px;
+	left: 10px;
+}
+.blog-contents .blog-orang p:hover {
+	color: red;
+	cursor: pointer;
+}
+.blog-contents .blog-comments p:hover {
+	color: red;
+	cursor: pointer;
+}
+
+/*BLOG KANAN*/
+/*search*/
+.blog-kanan {
+	position: relative;
+	top: 350px;
+}
+.blog-contents2 .blog-search input {
+	padding: 10px 110px 10px 10px;
+	position: relative;
+	top: -1600px;
+	left: 370px;
+}
+.blog-contents2 .blog-search img {
+	width: 20px;
+	position: relative;
+	top: -1595px;
+	left: 340px;
+}
+.blog-contents2 .blog-search h2 {
+	background-color: rgb(9, 213, 213);
+	color: white;
+	padding: 7px 10px 7px 10px;
+	width: 267px;
+	text-align: center;
+	border-radius: 3%;
+	position: relative;
+	top: -1580px;
+	left: 370px;
+}
+.blog-contents2 .blog-search h2:hover {
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+}
+/*Category*/
+.blog-contents2 .blog-category {
+	position: relative;
+	top: -1510px;
+	left: 370px;
+}
+.blog-contents2 .blog-category ul {
+	line-height: 50px;
+	color: rgb(74, 74, 74);
+}
+.blog-contents2 .blog-category ul:hover {
+	color: red;
+	cursor: pointer;
+}
+
+/*Recent post*/
+.blog-kanan .blog-contents2 .blog-recent h2 {
+	position: relative;
+	top: -1475px;
+	left: 370px;
+}
+.blog-kanan .blog-contents2 .blog-recent .blog-post .blog-poto-recent img {
+	width: 120px;
+	height: auto;
+	position: relative;
+	margin-top: -40px;
+	top: -1400px;
+	left: 370px;
+}
+.blog-kanan .blog-contents2 .blog-recent .blog-poto-recent h3 {
+	position: relative;
+	margin-top: 30px;
+	top: -1500px;
+	left: 500px;
+}
+.blog-kanan .blog-contents2 .blog-recent .blog-poto-recent h3:hover {
+	color: red;
+	cursor: pointer;
+}
+.blog-kanan .blog-contents2 .blog-recent .blog-poto-recent p {
+	color: rgb(106, 106, 106);
+	position: relative;
+	top: -1500px;
+	left: 500px;
+}
+/*tag clouds*/
+.blog-contents2 .blog-tag h2 {
+	position: relative;
+	top: -1400px;
+	left: 370px;
+}
+.blog-contents2 .blog-tag .blog-tag-tag a {
+	position: relative;
+	top: -1375px;
+	left: 370px;
+	text-decoration: none;
+	border: 0.1px solid black;
+	border-radius: 3%;
+	margin-right: 10px;
+}
+.blog-contents2 .blog-tag .blog-tag-tag a:hover {
+	background-color: red;
+	color: white;
+	transition: 0.2s;
+}
+/*Instagram feeds*/
+.blog-instagram h2 {
+	position: relative;
+	top: -1330px;
+	left: 370px;
+}
+.blog-instagram .blog-ig-poto img {
+	width: 90px;
+	height: auto;
+	position: relative;
+	top: -1290px;
+	left: 370px;
+	margin-top: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+/*Newsletter*/
+.blog-newsletter h2 {
+	position: relative;
+	top: -1215px;
+	left: 370px;
+}
+.blog-newsletter input {
+	position: relative;
+	padding: 10px 110px 10px 10px;
+	top: -1190px;
+	left: 370px;
+}
+.blog-newsletter h3 {
+	position: relative;
+	top: -1170px;
+	left: 370px;
+	text-align: center;
+	background-color: rgb(0, 199, 199);
+	color: white;
+	width: 287px;
+	padding: 7px 0 7px 0;
+}
+.blog-newsletter h3:hover {
+	background-color: red;
+	transition: 0.3s;
+	cursor: pointer;
+}
+/*navi*/
+.blog-navi a {
+	position: relative;
+	top: -70px;
+	left: -190px;
+	text-decoration: none;
+	color: black;
+	border: 2px solid black;
+	border-radius: 40%;
+	text-align: center;
+	margin-left: 10px;
+	font-style: bold;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+.blog-navi a:hover {
+	color: red;
+}

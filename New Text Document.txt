@@ -1,0 +1,2 @@
+Pada Page home dinamakan index.html agar bisa di hosting menggunakan github
+-Amadeus Stevan Beale 825210010
